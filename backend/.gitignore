@@ -1,0 +1,100 @@
+# Dependências
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Cache
+.npm
+.eslintcache
+
+# Cobertura de testes
+coverage/
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos de debug
+.debug/
+
+# Outros
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+mysql_data/
+*.dblwr
+*.ibd
+*.sock
+*.pem
+binlog.*
+
+# Arquivos de teste e debug locais
+*test*.sh
+*test*.txt
+test*.sh
+test*.txt
+quick_test.sh
+manual_full_test.sh
+full_manual_test.sh
+verify_system.sh
+diagnose_container.sh
+test-api-manual.sh
+api_test.txt
+health_test.txt
+backend_logs.txt
+containers.txt
+docker_ps.txt
+login_output.txt
+sql_applied.txt
+sql_result.txt
+start_error.txt
+status.txt
+final_status.txt
+turma_test.txt
+server.log
+test_output.txt
+
+# SQL de teste e temporários (exceto migrations)
+add-vagas-column.sql
+create-admin.sql
+create-tables.sql
+init-mysql-schema.sql
+
+# Scripts de sincronização temporários
+sync-db-simple.ts
+create-admin.ts
+
+# Backups de configuração
+.env.backup
